@@ -1,6 +1,7 @@
 # ExactHours
 
-Register your hours in plain text files.
+Registreer je uren in een plain text yaml bestand en converteer dit voor
+exact.
 
 ## Usage
 
@@ -17,12 +18,11 @@ bestand heet ```clients``` en bevat alle klanten met hun id's space
 gescheiden. A la een ```hosts``` bestand.
 
 ```
-7517	ACTIAM
-7519	VERDERINT
-7520	CCV
-7521	ABS
-7523	DASSLR
-7456	LLP
+7517	CLIENT 1
+7519	CLIENT 2
+7520	CLIENT 3
+7521	CLIENT 4
+7523	etc.
 ```
 
 ### 3. Registreer je uren in YAML
@@ -87,8 +87,9 @@ exact_hours prepare_for_import ~/Desktop/Uren\ hervorming\ Exact/weekimports/wee
 ## TODO
 
 - [ ] bulk export van meerdere lijstjes
-- [ ] kan kim ieders deze lijst importeren?
-
+- [ ] kan admin ieders deze lijst importeren?
+- [ ] travis
+- [ ] coverage
 
 ## Installation
 
