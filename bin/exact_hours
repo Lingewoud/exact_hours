@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'thor'
+require 'exact_hours/commands'
+
+ExactHours::Commands.start(ARGV)
+
